@@ -32,7 +32,7 @@ else
     console.log('bad');
 }
 app.get('/',function(req,res){
-    res.send("kollam mwone")
+    res.send("Ok")
     // res.redirect('/api');
 });
  app.use('/api',router);
